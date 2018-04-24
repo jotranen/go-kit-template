@@ -1,0 +1,13 @@
+package: github.com/jotranen/go-kit-template
+import:
+- package: github.com/go-kit/kit
+  version: v0.7.0
+  subpackages:
+  - endpoint
+  - log
+  - metrics
+  - metrics/expvar
+  - ratelimit
+  - transport/http
+- package: github.com/juju/ratelimit
+  version: 1.0.1

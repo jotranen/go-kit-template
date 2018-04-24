@@ -1,0 +1,25 @@
+hash: ff01df4bce39549df2b45cd849192e690610963ff3bf4e248389866c551a0207
+updated: 2018-04-23T00:10:26.427073+03:00
+imports:
+- name: github.com/go-kit/kit
+  version: ca4112baa34cb55091301bdc13b1420a122b1b9e
+  subpackages:
+  - endpoint
+  - log
+  - metrics
+  - metrics/expvar
+  - metrics/generic
+  - metrics/internal/lv
+  - ratelimit
+  - transport/http
+- name: github.com/go-logfmt/logfmt
+  version: 390ab7935ee28ec6b286364bba9b4dd6410cb3d5
+- name: github.com/go-stack/stack
+  version: 259ab82a6cad3992b4e21ff5cac294ccb06474bc
+- name: github.com/juju/ratelimit
+  version: 59fac5042749a5afb9af70e813da1dd5474f0167
+- name: github.com/kr/logfmt
+  version: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+- name: github.com/VividCortex/gohistogram
+  version: 51564d9861991fb0ad0f531c99ef602d0f9866e6
+testImports: []
